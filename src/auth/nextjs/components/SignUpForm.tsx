@@ -8,7 +8,7 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form"
-import { oAuthSignIn, signUp } from "../actions"
+import { signUp } from "../actions"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 import { Input } from "@/components/ui/input"
@@ -39,13 +39,11 @@ export function SignUpForm() {
         <div className="flex gap-4">
           <Button
             type="button"
-            onClick={async () => await oAuthSignIn("discord")}
           >
             Discord
           </Button>
           <Button
             type="button"
-            onClick={async () => await oAuthSignIn("github")}
           >
             GitHub
           </Button>
