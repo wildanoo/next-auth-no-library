@@ -1,5 +1,5 @@
 {
-  "id": "bdfaa215-88ef-451f-89d8-e7abe221404e",
+  "id": "97f14022-8098-4c08-ae5c-b6d818e7b5ee",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -31,13 +31,13 @@
           "name": "password",
           "type": "text",
           "primaryKey": false,
-          "notNull": true
+          "notNull": false
         },
         "salt": {
           "name": "salt",
           "type": "text",
           "primaryKey": false,
-          "notNull": true
+          "notNull": false
         },
         "role": {
           "name": "role",

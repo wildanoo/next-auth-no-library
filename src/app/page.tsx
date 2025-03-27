@@ -10,7 +10,8 @@ import {
 import Link from "next/link"
 
 export default async function HomePage() {
-  const fullUser = {id: '',name: "kyle", role: 'user'}
+  // const fullUser = {id: '',name: "kyle", role: 'user'}
+  const fullUser = null;
 
   return (
     <div className="container mx-auto p-4">
