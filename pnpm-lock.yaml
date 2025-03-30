@@ -75,6 +75,9 @@ importers:
       '@types/node':
         specifier: ^20
         version: 20.17.27
+      '@types/pg':
+        specifier: ^8.11.11
+        version: 8.11.11
       '@types/react':
         specifier: ^19
         version: 19.0.12
